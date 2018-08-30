@@ -64,3 +64,75 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container {
+  
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+  border: solid black;
+  
+  
+}
+
+/* header */
+
+.container header {
+  display: flex;
+  align-self: center;
+  border: solid black;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.container  nav {
+  
+  display: flex;
+  border: solid red;
+  width: 600px;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.cta {
+
+  display: flex;
+  border: solid yellow;
+  justify-content: center;
+  font-size: 65px;
+  margin: 30px;
+  
+}
+
+.cta button {
+  border: solid blue;
+  width: 100px;
+  justify-items: flex-end;
+}
+
+.top-content {
+  display: flex;
+  border: solid green;
+}
+
+.bottom-content {
+  display: flex;
+  border: solid brown;
+}
+
+.contact {
+  display: flex;
+  
+}
